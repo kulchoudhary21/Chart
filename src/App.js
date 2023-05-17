@@ -1,11 +1,9 @@
 import './App.css';
-import Header from './component/Dash/Header'
-import Chart1 from './component/Charts/Chart1';
+import Main from './component/main';
 function App() {
   return (
     <div>
-      <Header/>
-      <Chart1/>
+      <Main/>
     </div>
   );
 }
